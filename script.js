@@ -1,4 +1,4 @@
-// Завдання 1: Перевірка заповненості текстових полів
+// 1
 document.getElementById('checkFieldsBtn').addEventListener('click', function() {
     const field1 = document.getElementById('field1').value;
     const field2 = document.getElementById('field2').value;
@@ -6,8 +6,8 @@ document.getElementById('checkFieldsBtn').addEventListener('click', function() {
     document.getElementById('message').innerText = message;
   });
 
-  // Завдання 2: Перевірка суми числових полів
-  document.getElementById('checkSumBtn').addEventListener('click', function() {
+// 2
+document.getElementById('checkSumBtn').addEventListener('click', function() {
     const num1 = parseFloat(document.getElementById('num1').value) || 0;
     const num2 = parseFloat(document.getElementById('num2').value) || 0;
     const sumMessage = (num1 + num2) > 10 ? "Сума більша за 10" : "Сума менша або дорівнює 10";
